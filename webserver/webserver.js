@@ -10,6 +10,8 @@
     // Quebra a url pra ficar mais fácil
     var urlParts = url.parse(request.url, true);
 
+    console.log("Recebi um request!")
+
     // Um regex pra verificar se é para mudar LED
     var ledRegex = /leds/;
 
