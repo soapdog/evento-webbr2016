@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Tessel Web App</title>
+</head>
+<body>
+  <h1>Olá eu sou o Tessel!</h1>
+  <p>Aperte um botão para mudar um LED.</p>
+  <ul>
+    <li>
+      <button class="led-button" data-led="2">Verde</button>
+      Status: <span class="led-status"></span>
+    </li>
+    <li>
+      <button class="led-button" data-led="3">Azul</button>
+      Status: <span class="led-status"></span>
+    </li>
+  </ul>
+
+  <script type="text/javascript">
+      // Pega uma nodelist com a classe 'led-button'
+      var buttons = document.querySelectorAll('.led-button');
+
+      // Coloca os clicks nos botões
+      Array.prototype.forEach.call(buttons, function (button) {
+        button.addEventListener('click', toggleLed);
+      });
+
+      // Event handler para os LEDs
+      function toggleLed (event) {
+        var button = event.target;
+        var ledIndex = button.getAttribute('data-led'); // Qual é o LED?
+        var statusNode = button.parentNode.querySelector('.led-status'); // Tem que fazer update do <span>
+
+        // AJAX! (podia ser fetch...)
+        var req = new XMLHttpRequest();
+
+        // manda um GET request para '/leds/:index'
+        req.open('GET', '/leds/' + ledIndex);
+
+        // Depois de uma resposta positiva, faz update do statusNode com o status do LED.
+        req.onload = function(e) {
+          if (req.readyState == 4 && req.status == 200) {
+            var response = JSON.parse(req.responseText);
+            statusNode.textContent = response.on ? 'ON' : 'OFF';
+          } else {
+            console.log('Error', e); // Deu chabu.
+          }
+        }
+        req.send(); // AJAXXXXX!!! Francis?
+      }
+    </script>
+
+</body>
+</html>
+
