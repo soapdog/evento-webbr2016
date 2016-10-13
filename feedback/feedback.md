@@ -43,7 +43,7 @@ Pedimos aos presentes que preenchessem post-its com os items que eles:
 
 # Conclusão
 
-As pessoas gostaram muito do approach prático do workshop e das dinâmicas de grupo. Programar hardware em JS é simples e reduz a fricção de começar a programar para a computação física.
+As pessoas gostaram muito da pegada prática do workshop e das dinâmicas de grupo. Programar hardware em JS é simples e reduz a fricção de começar a programar para a computação física.
 
 A falta de computadores foi um problema real e a percepção que uma hora e meia de workshop é pouco tempo fala mais a favor do workshop do que contra rsrsrs.
 
