@@ -21,11 +21,11 @@ function desliga_luz() {
 
 function luz_emergencia() {
   le_luz(function(luz) {
-      if (luz > 50) {
-        console.log("ta claro...")
+      if (luz > 70) {
+        console.log("ta claro...", luz)
         desliga_luz()
       } else {
-        console.log("Muito escuro!!! Ligue a luz!!!")
+        console.log("Muito escuro!!! Ligue a luz!!!", luz)
         liga_luz()
       }
   })
