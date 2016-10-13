@@ -1,6 +1,8 @@
 # Micro Atividade de Feedback
 Pedimos aos presentes que preenchessem post-its com os items que eles:
 
+![Post-it](postits.jpg)
+
 * Gostaram ou o que deu certo
 * O que eles não gostaram ou que deu errado
 * O que eles gostariam de aprender no futuro.
@@ -46,3 +48,7 @@ As pessoas gostaram muito do approach prático do workshop e das dinâmicas de g
 A falta de computadores foi um problema real e a percepção que uma hora e meia de workshop é pouco tempo fala mais a favor do workshop do que contra rsrsrs.
 
 Ter um projeto realizado do início ao fim é uma boa forma de engajar os oficineiros no futuro e o Tessel foi bem recebido!
+
+![Tessel](tessel.jpg)
+
+![Palco](palco.jpg)
