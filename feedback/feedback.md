@@ -1,7 +1,7 @@
 # Micro Atividade de Feedback
-Pedimos aos presentes que preenchessem post-its com os items que eles:
-
 ![Post-it](postits.jpg)
+
+Pedimos aos presentes que preenchessem post-its com os items que eles:
 
 * Gostaram ou o que deu certo
 * O que eles não gostaram ou que deu errado
@@ -25,6 +25,7 @@ Pedimos aos presentes que preenchessem post-its com os items que eles:
 * Pouco tempo x 2
 * Mais conteúdo de hardware x 1
 * Dificuldade com as portas x 1
+* Mais monitores x 1
 * Faltou mesas x 1
 
 **Total: 9 items**
@@ -47,7 +48,7 @@ As pessoas gostaram muito da pegada prática do workshop e das dinâmicas de gru
 
 A falta de computadores foi um problema real e a percepção que uma hora e meia de workshop é pouco tempo fala mais a favor do workshop do que contra rsrsrs.
 
-Ter um projeto realizado do início ao fim é uma boa forma de engajar os oficineiros no futuro e o Tessel foi bem recebido!
+Realizar um projto do início ao fim é uma boa forma de engajar os oficineiros no futuro e o Tessel foi bem recebido!
 
 ![Tessel](tessel.jpg)
 
